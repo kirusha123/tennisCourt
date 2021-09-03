@@ -1,0 +1,10 @@
+.horizontal-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.horizontal-box> :nth-child(n){
+    flex: 0 0 9%;
+}

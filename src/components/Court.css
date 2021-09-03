@@ -1,0 +1,24 @@
+.vertical-box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+.vertical-box> :nth-child(n){
+    flex: 0 0 auto;
+    border: 1px solid red;
+    user-select: none;
+}
+
+.active{
+    cursor: pointer;
+}
+
+.admin-booked{
+    background-color: red;
+}
+
+.booked{
+    background-color: green;
+}
